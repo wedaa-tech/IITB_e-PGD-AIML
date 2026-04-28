@@ -1,0 +1,12 @@
+{
+  "variance": 0.05,
+  "pixel_range": "0_1",
+  "distribution": "gaussian",
+  "clip_after_noise": true,
+  "normalisation": "cifar100",
+  "seed": 42,
+  "description": "Additive zero-mean Gaussian noise, sigma^2=0.05, sigma=0.223607. Applied in [0,1] pixel space before re-normalisation. CIFAR-100 robustness evaluation. Seed=42.",
+  "sigma": 0.22360679774997896,
+  "mean_param": 0.0,
+  "saved_at": "2026-04-22 05:53:56"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Scratch CNN",
+  "top1": 0.0315,
+  "top5": 0.122,
+  "loss": 5.7672443756103515,
+  "correct_1": 315,
+  "correct_5": 1220,
+  "total": 10000,
+  "avg_confidence_correct": 0.4307533298693006,
+  "avg_confidence_incorrect": 0.37235459145591254
+}

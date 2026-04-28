@@ -1,0 +1,13 @@
+{
+  "noise_prob": 0.25,
+  "noise_variance": 0.05,
+  "use_mixup": true,
+  "mixup_alpha": 0.2,
+  "noise_apply_mode": "batch",
+  "normalisation": "cifar100",
+  "seed": 42,
+  "description": "Noise-augmented training: p=0.25 of each batch receives Gaussian noise with sigma^2=0.05 (matching test noise schedule). Optional Mixup alpha=0.2 for semantically similar samples. 75% of training data remains clean to preserve distribution.",
+  "sigma": 0.22360679774997896,
+  "clean_fraction": 0.75,
+  "saved_at": "2026-04-22 05:56:30"
+}

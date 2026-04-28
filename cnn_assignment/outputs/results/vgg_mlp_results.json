@@ -1,0 +1,15 @@
+{
+  "top1": 0.6165,
+  "top5": 0.8815,
+  "loss": 1.43654395236969,
+  "mlp_params": 420452,
+  "vgg_frozen_params": 14723136,
+  "total_params": 15143588,
+  "best_val_acc": 0.627,
+  "best_epoch": 23,
+  "vgg_variant": "vgg16_bn",
+  "mlp_hidden": [
+    512,
+    256
+  ]
+}

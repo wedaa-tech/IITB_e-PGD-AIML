@@ -1,0 +1,39 @@
+{
+  "noise_variance": 0.05,
+  "noise_sigma": 0.22360679774997896,
+  "models": {
+    "Scratch CNN": {
+      "clean_top1": 0.5993,
+      "noisy_top1": 0.0315,
+      "accuracy_drop": 0.5678,
+      "retention_pct": 5.26,
+      "clean_top5": 0.8708,
+      "noisy_top5": 0.122,
+      "noisy_loss": 5.7672443756103515,
+      "avg_conf_correct_noisy": 0.4307533298693006,
+      "avg_conf_incorrect_noisy": 0.37235459145591254
+    },
+    "VGG16-BN + MLP": {
+      "clean_top1": 0.6165,
+      "noisy_top1": 0.0464,
+      "accuracy_drop": 0.5701,
+      "retention_pct": 7.53,
+      "clean_top5": 0.8815,
+      "noisy_top5": 0.151,
+      "noisy_loss": 4.727812498474121,
+      "avg_conf_correct_noisy": 0.2419695397598091,
+      "avg_conf_incorrect_noisy": 0.14177613188286042
+    },
+    "EfficientNet-B0": {
+      "clean_top1": 0.816,
+      "noisy_top1": 0.0099,
+      "accuracy_drop": 0.8061,
+      "retention_pct": 1.21,
+      "clean_top5": 0.9593,
+      "noisy_top5": 0.0495,
+      "noisy_loss": 1813.086368359375,
+      "avg_conf_correct_noisy": 0.9929925811411154,
+      "avg_conf_incorrect_noisy": 0.9952456792813698
+    }
+  }
+}

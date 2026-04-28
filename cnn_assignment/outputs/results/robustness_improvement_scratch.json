@@ -1,0 +1,18 @@
+{
+  "Baseline": {
+    "clean_top1": 0.5993,
+    "noisy_top1": 0.0315,
+    "drop": 0.5678000000000001,
+    "retention_pct": 5.256132154179876,
+    "clean_top5": 0.8708,
+    "noisy_top5": 0.122
+  },
+  "Noise-Augmented": {
+    "clean_top1": 0.5212,
+    "noisy_top1": 0.4079,
+    "drop": 0.11330000000000001,
+    "retention_pct": 78.26170376055256,
+    "clean_top5": 0.8169,
+    "noisy_top5": 0.7146
+  }
+}

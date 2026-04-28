@@ -1,0 +1,56 @@
+{
+  "0.0": {
+    "sigma": 0.0,
+    "top1": 0.6165,
+    "top5": 0.8815,
+    "loss": 1.436543932723999,
+    "avg_confidence_correct": 0.6345348577441864,
+    "avg_confidence_incorrect": 0.3336091009683839,
+    "total_samples": 10000
+  },
+  "0.05": {
+    "sigma": 0.05,
+    "top1": 0.2807,
+    "top5": 0.5491,
+    "loss": 3.0440222217559816,
+    "avg_confidence_correct": 0.41439905910781577,
+    "avg_confidence_incorrect": 0.1836476489170261,
+    "total_samples": 10000
+  },
+  "0.1": {
+    "sigma": 0.1,
+    "top1": 0.1584,
+    "top5": 0.3602,
+    "loss": 3.800863374328613,
+    "avg_confidence_correct": 0.35592790778180716,
+    "avg_confidence_incorrect": 0.16014360326799093,
+    "total_samples": 10000
+  },
+  "0.2": {
+    "sigma": 0.2,
+    "top1": 0.0612,
+    "top5": 0.1795,
+    "loss": 4.581571780395508,
+    "avg_confidence_correct": 0.24734369294681385,
+    "avg_confidence_incorrect": 0.14107103854049557,
+    "total_samples": 10000
+  },
+  "0.22360679774997896": {
+    "sigma": 0.22360679774997896,
+    "top1": 0.0464,
+    "top5": 0.151,
+    "loss": 4.727812498474121,
+    "avg_confidence_correct": 0.2419695397598091,
+    "avg_confidence_incorrect": 0.14177613188286042,
+    "total_samples": 10000
+  },
+  "0.3": {
+    "sigma": 0.3,
+    "top1": 0.0239,
+    "top5": 0.0934,
+    "loss": 5.117447013092041,
+    "avg_confidence_correct": 0.21179476135632483,
+    "avg_confidence_incorrect": 0.14588131673001276,
+    "total_samples": 10000
+  }
+}

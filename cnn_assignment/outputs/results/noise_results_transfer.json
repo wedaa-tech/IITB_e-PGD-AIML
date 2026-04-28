@@ -1,0 +1,11 @@
+{
+  "label": "Transfer (efficientnet_b0)",
+  "top1": 0.0099,
+  "top5": 0.0495,
+  "loss": 1813.086368359375,
+  "correct_1": 99,
+  "correct_5": 495,
+  "total": 10000,
+  "avg_confidence_correct": 0.9929925811411154,
+  "avg_confidence_incorrect": 0.9952456792813698
+}

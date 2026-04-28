@@ -1,0 +1,23 @@
+{
+  "Scratch CNN": {
+    "top1": 0.5993,
+    "top5": 0.8708,
+    "params_m": 9.22,
+    "avg_epoch_s": 41.4596,
+    "description": "4-block VGG-style CNN, all weights trained from random init"
+  },
+  "VGG16-BN + MLP": {
+    "top1": 0.6165,
+    "top5": 0.8815,
+    "params_m": 0.420452,
+    "avg_epoch_s": 0.7310526315789476,
+    "description": "Frozen VGG16-BN features + small MLP classifier"
+  },
+  "EfficientNet-B0": {
+    "top1": 0.816,
+    "top5": 0.9593,
+    "params_m": 5.29,
+    "avg_epoch_s": 517.3924324324324,
+    "description": "Pretrained EfficientNet-B0 fine-tuned (Phase A+B)"
+  }
+}
